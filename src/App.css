@@ -5,7 +5,7 @@
 .custom-scroll::-webkit-scrollbar-thumb {
   border-radius: 50px;
   border: 1px solid #ccc;
-  background-color: #fff;
+  background-color: yellowgreen;
 }
 
 .custom-scroll::-webkit-scrollbar-thumb:hover {
@@ -17,11 +17,11 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: whitesmoke;
+  background: linear-gradient(to left, #616161, #2a3a48);
 }
 h1{
-  color:black;
-  text-decoration: underline;
+  color:white;
+  text-decoration: none;
   
 }
 .navbar{
@@ -36,13 +36,14 @@ h1{
 .navbar h2{
   margin-left: -90%; 
   cursor: pointer;
+  color: #fff;
 }
 .navbar h3 {
-  color: black;
+  color: white;
   cursor: pointer;
-  border: 1px solid white;
+  border: 1px solid black;
   border-radius: 8px;
-  background-color: white;
+  background-color: black;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);  
   padding: 10px 20px;
   margin-right: 10px;
@@ -50,8 +51,8 @@ h1{
 }
 
 .navbar h3:hover{
-  color:white;
-  background-color: black;
+  color:black;
+  background-color: white;
   border:1px solid black;
    
 }
@@ -59,9 +60,9 @@ h1{
 .app_nav {
   padding: 20px;
   box-shadow: 0 1px 20px rgba(56, 40, 40, 0.05);
-  position: sticky;
+  /* position: sticky; */
   top: 0;
- background: linear-gradient(grey,white);
+  background: linear-gradient(to right, #616161, #2a3a48);
 }
 
 .app_boards_container {
@@ -84,7 +85,7 @@ h1{
 }
 
 .app_boards_add-board {
-  background-color: #fff;
+  background-color:black;
   color: #000;
   border-radius: 10px;
   box-shadow: 1px 1px 0 1px rgba(0, 0, 0, 0.12);

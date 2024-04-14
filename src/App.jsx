@@ -165,7 +165,7 @@ function App() {
   return (
     <div className="app">
       <div className="app_nav">
-        <h1><center> Trello</center> </h1>
+        <h1><center> TO DO</center> </h1>
       </div>
       <hr/>
        
